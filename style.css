@@ -67,31 +67,6 @@ main {
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
-.drawing-courses {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-    text-align: left;
-}
-
-.drawing-courses h2 {
-    font-size: 24px;
-    color: #333;
-}
-
-.drawing-courses p {
-    font-size: 16px;
-    color: #666;
-}
-
-.drawing-courses img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 10px;
-}
 
 .gallery {
     margin: 20px;
@@ -107,6 +82,55 @@ main {
 
 .gallery img:hover {
      box-shadow: 0 4px 4px 10px rgb(203, 224, 243);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.text-overlay h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.text-overlay p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .testimonials {
