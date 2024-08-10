@@ -1,10 +1,11 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
     font-family: sans-serif;
 }
 
 header {
-    background-color: #ffffff; 
+    border: solid 1px white;
+    background-color: #000000; 
     padding: 15px 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -21,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: #000000; 
+    color: #ffffff; 
     text-decoration: none; 
     font-size: 18px;
     padding: 10px 15px; 
@@ -30,12 +31,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(203, 224, 243); 
+    background-color: rgb(255, 255, 255); 
     color: #000000;
 }
 
 main {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 main {
@@ -51,19 +52,18 @@ main {
 }
 
 .bro a {
-    border: solid 1px gray;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     padding: 15px 30px;
     text-decoration: none;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
 
 .bro a:hover {
-    background-color: rgb(203, 224, 243);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     transform: scale(1.05);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
@@ -77,11 +77,11 @@ main {
     width: 30%;
     margin: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgb(203, 224, 243);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 
 .gallery img:hover {
-     box-shadow: 0 4px 4px 10px rgb(203, 224, 243);
+     box-shadow: 0 4px 4px 10px rgb(255, 255, 255);
 }
 
 .image-container {
@@ -126,15 +126,15 @@ main {
 .description {
     font-size: 1.2em;
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #ffffff;
+    background-color: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .testimonials {
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -144,20 +144,20 @@ main {
 
 .testimonials h2 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
 }
 
 .testimonials p {
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
     margin: 10px 0;
 }
 footer {
-    background-color: #ffffff;
-    color: #000000;
+    border: solid 1px white;
+    background-color: #000000;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
-    border-top: 5px solid #949494;
     margin-top: 20px;
 }
 
@@ -171,6 +171,7 @@ footer a {
     margin: 0 10px;
     font-weight: bold;
 }
+
 
 footer a:hover {
     text-decoration: underline;
@@ -188,14 +189,14 @@ footer a:hover {
 }
 
 .social-media a:hover {
-    color: #007bff;
+    color: #00eaff;
 }
 
 .to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     padding: 10px;
     border-radius: 50%;
@@ -205,25 +206,25 @@ footer a:hover {
 
 footer a{
     text-decoration: none;
-    background-color: rgb(203, 224, 243);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 footer a:hover {
-    background-color: rgb(158, 175, 189);
+    background-color: rgb(0, 0, 0);
 }
 
 
 .testimonial {
-    background-color: #f9f9f9;
+    background-color: #000000;
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
 }
 
 .schedule {
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -232,7 +233,7 @@ footer a:hover {
 
 .schedule h2 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -244,22 +245,23 @@ footer a:hover {
 }
 
 .schedule td {
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: center;
 }
 
 .schedule tr:nth-child{
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .schedule tr:hover {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+    color: black;
 }
 
 .schedule td:first-child {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -268,7 +270,9 @@ footer a:hover {
     top: 20%;
     right: 0;
     width: 200px;
-    background-color: #f4f4f4;
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTVibHlpdjRvanU0ZHdwNDhzdzJwMDJ6cWdhY2hrY3hhbG94ZXRxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yALcFbrKshfoY/giphy.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 20px;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px 0 0 10px;
@@ -278,31 +282,31 @@ footer a:hover {
 .sidebar h2 {
     margin-top: 0;
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
 }
 
 .sidebar p {
     font-size: 14px;
-    color: #666;
+    color: #ffffff;
 }
 
 .sidebar a {
     display: block;
     margin-top: 10px;
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    background-color: #e9ecef;
+    background-color: #000000;
     text-align: center;
 }
 
 .sidebar a:hover {
-    background-color: #ced4da;
+    background-color: #252525;
 }
 
 .courses {
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -312,14 +316,14 @@ footer a:hover {
 
 .courses h2 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .course {
     margin: 20px 0;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
@@ -331,12 +335,12 @@ footer a:hover {
 
 .course h3 {
     font-size: 20px;
-    color: #6a84a0;
+    color: #ffffff;
 }
 
 .course p {
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
 }
 
 .course img {
@@ -346,79 +350,25 @@ footer a:hover {
     margin-top: 10px;
 }
 .load-more {
-    border: solid 1px gray;
+    border: solid 1px rgb(255, 255, 255);
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #000000;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .load-more:hover {
-    
-    background-color: rgb(203, 224, 243);
+    background-color: rgb(43, 43, 43);
     transform: scale(1.05);
 }
 
-.blog {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
-}
-
-.blog h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-}
-
-.post {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.post h3 {
-    font-size: 22px;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.post p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.post img {
-    width: 30%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.post a {
-    font-size: 16px;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.post a:hover {
-    text-decoration: underline;
-}
 
 .reviews {
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -428,14 +378,14 @@ footer a:hover {
 
 .reviews h2 {
     font-size: 24px;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .review {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f9f9f9;
+    background-color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -459,17 +409,17 @@ footer a:hover {
 
 .review-details h3 {
     font-size: 18px;
-    color: #007bff;
+    color: #ffffff;
     margin: 0;
 }
 
 .rating span {
     font-size: 18px;
-    color: #ffcc00;
+    color: #ffffff;
 }
 
 .review p {
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
     margin: 0;
 }
